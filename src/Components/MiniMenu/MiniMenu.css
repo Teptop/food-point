@@ -1,0 +1,67 @@
+.navbar{
+    background: #fff;
+    padding: 0.1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+    width: 25rem;
+    margin-left: 116rem;
+    margin-top: 8rem;
+    position: fixed;
+    z-index: 10001;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar a{
+    display: block;
+    margin: 0.5rem 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: var(--text-color-1);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    width: 90%;
+    background: #fff;
+}
+
+.navbar a:hover{
+    color: var(--primary-color-);
+    background: var(--bg-color-2);
+    padding-left: 2rem;
+}
+@media (max-width:1050px) {
+    .navbar{
+        margin-left: 0rem;
+        margin-top: rem;
+        background: ;
+    }
+    .navbar a{
+        margin: 0.5rem 1rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:900px) {
+    .navbar{
+        margin-left: 25rem;
+        margin-top: 8rem;
+    }
+    .navbar a{
+        margin: 0.5rem 1rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:750px) {
+    .navbar{
+        margin-left: 20rem;
+        margin-top: 6.5rem;
+    }
+    .navbar a{
+        margin: 0.5rem 1rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}

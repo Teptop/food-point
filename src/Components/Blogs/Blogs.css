@@ -1,0 +1,59 @@
+.blogs .box-blogs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;    
+  }
+ 
+  .blogs .box-blogs .box{
+     background: var(--bg-color-1);
+     border-radius: 0.5rem;
+     box-shadow: var(--box-shadow);
+     padding: 2rem;
+  }
+ 
+  .blogs .box-blogs .box .image{
+     height: 35rem;
+     width: 100%;
+     overflow: hidden;
+     border-radius: 0.5rem;
+     background: #eee;
+  }
+ 
+  .blogs .box-blogs .box .image img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+  }
+ 
+  /* hover */
+ 
+  .blogs .box-blogs .box .image img:hover{
+     transform: scale(1.2);
+  }
+ 
+  .blogs .box-blogs .box .content{
+     padding-top: 1rem;
+  }
+ 
+  .blogs .box-blogs .box .content h3{
+     font-size: 2rem;
+     color: var(--text-color-1);
+     line-height: 1.5;
+  }
+ 
+  .blogs .box-blogs .box .content .icons{
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.1rem solid var(--text-color-2);
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+  }
+ 
+  .blogs .box-blogs .box .content .icons a{
+     font-size: 1.5rem;
+     color: var(--text-color-2);
+  }
+  .blogs .box-blogs .box .content .icons a i{
+    color: var(--primary-color-);
+    padding-right: 0.5rem;
+  }

@@ -1,0 +1,14 @@
+.heading{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.heading span{
+    color: var(--primary-color-);
+}
+.packages .box-container{
+    display: grid;
+    grid-template-columns: repeat( auto-fit,minmax(35rem, 1fr));
+    gap: 1.5rem;
+
+}

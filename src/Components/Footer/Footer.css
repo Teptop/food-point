@@ -1,0 +1,31 @@
+.footer{
+    background: rgb(37, 37, 37);
+  }
+ 
+  .footer .box-container{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+     gap: 1.5rem;
+     
+  }
+ 
+  .footer .box-container .box-footer h3{
+     font-size: 2.5rem;
+     color: white;
+     padding: 1rem 0;
+  }
+  .footer .box-container .box-footer a{
+    display: block;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    width: 70%;
+  }
+  .footer .box-container .box-footer a .i{
+    padding-right: 0.5rem;
+    color: var(--primary-color-);
+  }
+  .footer .box-container .box-footer a:hover .i{
+    padding-right: 2rem;
+  }

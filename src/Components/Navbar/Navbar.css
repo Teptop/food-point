@@ -1,0 +1,144 @@
+.header{
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg-color-1);
+    box-shadow: var(--box-shadow);
+    padding: 1.5rem 7%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.header .logo{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #292929;
+    text-decoration: none;
+}
+.header .logoi{
+    margin-right: 1rem;
+}
+.header .logo img{
+    color: red;
+}
+.header .icons img{
+    width: 3rem;
+}
+.header .search-form{
+   background: var(--bg-color-2);
+   border-radius: 0.5rem;
+   display: flex;
+   align-items: center;
+   height: 4.5rem;
+   width: 50rem;
+}
+.header .search-form input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.5rem;
+    color: var(--text-color-1);
+    padding: 1rem;
+}
+.header .search-form label{
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    color: var(--text-color-1);
+    cursor: pointer;
+}
+.header .search-form label:hover{
+    color: var(--primary-color-);
+}
+.header .icons div{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    background: var(--bg-color-2);
+    color: var(--text-color-1);
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+.header .icons{
+    position: relative;
+}
+.icons .cart-count{
+    position: absolute;
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 5rem;
+    display: flex;
+    top: 0.5rem;
+    left: 3rem;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    color: white;
+}
+.header .icons div:hover{
+    color: var(--primary-color-);
+}
+.header .icons .cart-btn span{
+
+}
+#search-btn{
+    display: none;
+}
+
+@media (max-width:1050px){
+    .header .search-form{
+        height: 4rem;
+        width: 40rem;
+     }
+     .header .search-form input{
+         font-size: 1.3rem;
+     }
+    .header .logo{
+        font-size: 2.1rem;
+    }
+    .header .icons div{
+        height: 4rem;
+        width: 4rem;
+        line-height: 4rem;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width:900px){
+    .header .search-form{
+        display: none;
+    }
+    .header .logo{
+        font-size: 2.2rem;
+    }
+    .header .icons div{
+        height: 4rem;
+        width: 4rem;
+        line-height: 4rem;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width:750px) {
+    .header .search-form{
+        display: none;
+    }
+    .header .logo{
+        font-size: 2rem;
+    }
+    .header .icons div{
+        height: 3rem;
+        width: 3rem;
+        line-height: 3rem;
+        font-size: 1.8rem;
+        margin-left: 0.8rem;
+    }
+}

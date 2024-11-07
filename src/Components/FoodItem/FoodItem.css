@@ -1,0 +1,86 @@
+.box{
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.box .image{
+   height: 40rem;
+   width: 100%;
+   padding: 1.5rem;
+   position: relative;
+}
+.box .image .add{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    bottom: 3rem;
+    right: 3rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.food-item-counter{
+    position: absolute;
+    background-color: white;
+    bottom: 3rem;
+    right: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.food-item-counter img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.box .image img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+border-radius: 0.5rem;
+}
+.box .image h3{
+    position: absolute;
+    top: 2.5rem;
+    left: 2.5rem;
+    font-size: 2rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    font-weight: lighter;
+    padding: 0.5rem 1.5rem;
+}
+.box .image h3 .i{
+    color: #ffb700;
+    margin-right: 1rem;
+}
+
+.box .price{
+    font-weight: 600;
+    color: #292929;
+    font-size: 2.5rem;
+}
+
+.box .content{
+    padding: 1.5rem;
+    padding-top: 0;
+}
+
+.box .price span{
+    font-weight: lighter;
+    color: #666;
+    font-size: 1.5rem;
+    text-decoration:  line-through;
+}
+
+.box .content p{
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    color: #666;
+    line-height: 1.7;
+}
