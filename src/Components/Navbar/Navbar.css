@@ -141,4 +141,11 @@
         font-size: 1.8rem;
         margin-left: 0.8rem;
     }
+    .icons .cart-count{
+        position: absolute;
+        width: 1.3rem;
+        height: 1.3rem;
+        top: 0rem;
+        left: 2.5rem;
+    }
 }
