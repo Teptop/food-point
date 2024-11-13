@@ -5,7 +5,7 @@
     background: var(--bg-color-1);
     box-shadow: var(--box-shadow);
     padding: 1.5rem 7%;
-    z-index: 1000;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
